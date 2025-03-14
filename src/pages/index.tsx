@@ -26,7 +26,6 @@ export default function HomePage() {
       <div className="relative mx-auto flex flex-col gap-5 mt-24 pb-10 px-2.5 transition-all duration-250 ease-in-out sm:px-5 sm:pt-5 md:max-w-6xl">
         {/* Hero Text Section */}
         <div className="w-full flex flex-col items-center justify-center mb-10 text-center">
-          <div className="bg-[#8F6AF7] rounded-full px-3 py-1.5 text-white font-semibold">CA: unrevealed</div>
           <h1 className="text-5xl md:text-8xl font-bold mb-4">Instant On-Chain Gambling</h1>
           <p className="text-lg md:text-xl max-w-2xl mb-6">
             Play instantly without deposits or withdrawals. Right from your wallet, 100% on-chain, 100% provably fair
@@ -40,7 +39,11 @@ export default function HomePage() {
         </div>
 
         <GameGrid />
+
       </div>
+      <a href="https://x.com/gambledgen" className="text-white absolute bottom-4 right-4 underline bg-[#8F6AF7] px-3 py-1.5 rounded-full">
+        follow us on X
+      </a>
     </>
   );
 }
