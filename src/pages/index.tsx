@@ -41,7 +41,7 @@ export default function HomePage() {
         <GameGrid />
 
       </div>
-      <a href="https://x.com/gambledgen" className="text-white absolute bottom-4 right-4 underline bg-[#8F6AF7] px-3 py-1.5 rounded-full">
+      <a href="https://x.com/gambledgen" className="hidden md:block text-white absolute bottom-4 right-4 underline bg-[#8F6AF7] px-3 py-1.5 rounded-full">
         follow us on X
       </a>
     </>
